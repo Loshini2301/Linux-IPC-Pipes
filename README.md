@@ -1,15 +1,15 @@
-# Linux-IPC--Pipes
-Linux-IPC-Pipes
+# Ex no-3 Linux-IPC--Pipes
+
+### Date:
 ### Name:Loshini.G
 ### Register Number:212223220051
 ### Department:IT
 
-# Ex03-Linux IPC - Pipes
 
-# AIM:
+## AIM:
 To write a C program that illustrate communication between two process using unnamed and named pipes
 
-# DESIGN STEPS:
+## DESIGN STEPS:
 
 ### Step 1:
 
@@ -23,14 +23,14 @@ Write the C Program using Linux Process API - pipe(), fifo()
 
 Testing the C Program for the desired output. 
 
-# PROGRAM:
-```
-Developed By:Loshini.G
-Reg No:212223220051
-```
+## PROGRAM:
+
+#### Developed By:Loshini.G
+#### Reg No:212223220051
+
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-```
+```c
 #include<stdlib.h>
 #include<sys/types.h> 
 #include<sys/stat.h> 
@@ -95,7 +95,7 @@ file:///home/sec/Downloads/Screenshot%20from%202024-03-30%2009-30-43(2).png![ima
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-```
+```c
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -116,5 +116,5 @@ exit(EXIT_SUCCESS);
 
 
 
-# RESULT:
+## RESULT:
 The program is executed successfully.
